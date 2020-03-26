@@ -30,7 +30,7 @@ body {
 #tracker [id^="smallkeyhalf"] { width: 32px; height: 32px; color: #FFF; font-size: 20px; text-align: center; font-family: "Arial Black", Gadget, sans-serif; padding-top: 6px; padding-left: 6px; -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; user-select: none;  }
 #tracker [id^="smallhalfheader"] { width: 32px; height: 16px; color: #FFF; font-size: 9px; text-align: center; font-family: "Arial Black", Gadget, sans-serif; padding-top: 2px; -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; -o-user-select: none; user-select: none;  }
 
-#tracker .item.half { width: 32px; height: 32px; position: absolute; }
+#tracker .item.half { width: 48px; height: 48px; position: absolute; }
 #tracker .tunic { width: 128px; height: 128px; }
 #tracker .sword { position: absolute; top: 0; right: 0; height: 48px; width: 48px; }
 #tracker .crystalgoal { position: absolute; top: 0; left: 0; height: 24px; width: 24px; }
@@ -232,8 +232,8 @@ body {
 .boomerang.active-2 { background-image: url(../images/items/boomerang2.png); }
 .boomerang.active-3 { background-image: url(../images/items/boomerang3.png); }
 .hookshot { background-image: url(../images/items/hookshot.png); }
-.mushroom { width: 32px; height: 32px; background-size: 32px; top: 0; left: 0; background-image: url(../images/items/mushroom.png); }
-.powder { width: 32px; height: 32px; background-size: 32px; top: 32; left: 32; background-image: url(../images/items/powder.png); }
+.mushroom { width: 48px; height: 48px; background-size: 48px; top: 0; left: 0; background-image: url(../images/items/mushroom.png); }
+.powder { width: 48px; height: 48px; background-size: 48px; top: 16; left: 16; background-image: url(../images/items/powder.png); }
 .firerod { background-image: url(../images/items/firerod.png); }
 .icerod { background-image: url(../images/items/icerod.png); }
 .bombos { background-image: url(../images/items/bombos.png); }
@@ -241,7 +241,7 @@ body {
 .quake { background-image: url(../images/items/quake.png); }
 .lantern { background-image: url(../images/items/lantern.png); }
 .hammer { background-image: url(../images/items/hammer.png); }
-.shovel { width: 32px; height: 32px; background-size: 32px; top: 0; left: 0; background-image: url(../images/items/shovel.png); }
+.shovel { width: 48px; height: 48px; background-size: 48px; top: 0; left: 0; background-image: url(../images/items/shovel.png); }
 .net { background-image: url(../images/items/net.png); }
 .book { background-image: url(../images/items/book.png); }
 .bottle { background-image: url(../images/items/bottle0.png); }
@@ -257,12 +257,12 @@ body {
 .glove { background-image: url(../images/items/glove1.png); }
 .glove.active-2 { background-image: url(../images/items/glove2.png); }
 .flippers { background-image: url(../images/items/flippers.png); }
-.flute { width: 32px; height: 32px; background-size: 32px; top: 32; left: 32; background-image: url(../images/items/flute.png); }
+.flute { width: 48px; height: 48px; background-size: 48px; top: 16; left: 16; background-image: url(../images/items/flute.png); }
 .magic { background-image: url(../images/items/magic.png); }
-.agahnim, #bossMapAgahnim { width: 32px; height: 32px; background-size: 32px; top: 0; left: 0; background-image:url(../images/dungeons/agahnim0.png); }
-.agahnim.active { width: 32px; height: 32px; background-size: 32px; top: 0; left: 0; background-image:url(../images/dungeons/agahnim1.png); }
-.agahnim2 { width: 32px; height: 32px; background-size: 32px; top: 32; left: 32; background-image:url(../images/dungeons/agahnim20.png); }
-.agahnim2.active { width: 32px; height: 32px; background-size: 32px; top: 32; left: 32; background-image:url(../images/dungeons/agahnim1.png); }
+.agahnim, #bossMapAgahnim { width: 48px; height: 48px; background-size: 48px; top: 0; left: 0; background-image:url(../images/dungeons/agahnim0.png); }
+.agahnim.active { width: 48px; height: 48px; background-size: 48px; top: 0; left: 0; background-image:url(../images/dungeons/agahnim1.png); }
+.agahnim2 { width: 48px; height: 48px; background-size: 48px; top: 16; left: 16; background-image:url(../images/dungeons/agahnim20.png); }
+.agahnim2.active { width: 48px; height: 48px; background-size: 48px; top: 16; left: 16; background-image:url(../images/dungeons/agahnim1.png); }
 .boss0 { background-image: url(../images/dungeons/boss0.png); }
 .boss1 { background-image: url(../images/dungeons/boss1.png); }
 .boss2 { background-image: url(../images/dungeons/boss2.png); }
